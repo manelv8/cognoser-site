@@ -1,6 +1,15 @@
 
 @use "section-main";
 @use "footer-main";
+.navbar{
+  background-color: var(--blue-300);
+}
+
+.navbar-brand{
+  .logo{
+    width: 48px;
+  }
+}
 
 .main-header{
   .banner{
@@ -10,3 +19,13 @@
  }
 }
 
+.navbar-light .navbar-nav .nav-link{
+  color: var(--white);
+  font-weight: bold;
+  &:hover{
+    color: var(--white);
+  }
+  &:focus{
+    color:var(--white);
+  }
+}
