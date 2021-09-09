@@ -24,6 +24,9 @@
   font-weight: bold;
   &:hover{
     color: var(--white);
+    text-decoration: underline;
+    text-decoration-color: var(--white);
+    text-underline-offset: 10px;
   }
   &:focus{
     color:var(--white);
