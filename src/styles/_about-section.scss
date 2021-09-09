@@ -1,0 +1,19 @@
+.about-section{
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  .myText{
+      min-width: 300px;
+      font-size: 2rem;
+      text-align: center;
+      color: var(--white);
+      
+    }
+  
+   .myImage{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+}
