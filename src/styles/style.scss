@@ -8,6 +8,11 @@
 .navbar-brand{
   .logo{
     width: 48px;
+    align-self: center;
+  }
+  span{
+    color:var(--white);
+    font-size: 48px;
   }
 }
 
