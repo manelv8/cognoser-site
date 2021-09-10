@@ -5,6 +5,10 @@
 @use "footer-main";
 @use "about-section";
 
+.container-fluid {
+  overflow: hidden;
+}
+
 .navbar{
   background-color: var(--blue-300);
 }
