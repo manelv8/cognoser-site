@@ -26,6 +26,10 @@
     color: var(--white);
     font-size: 0.95rem;
     letter-spacing: 0.5px;
+
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
   }
 
   .myTextArea{
