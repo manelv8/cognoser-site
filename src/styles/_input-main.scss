@@ -1,20 +1,22 @@
 .input-container {
   position: relative;
-
+ 
   .myLabel{
     position: absolute;
-    background-color: var(--blue-300);
+    background-color: transparent;
     color: var(--white);
-    top:0;
+    top:50%;
     left:25px;
     transform: translateY(-50%);
-
     font-size: 1rem;
-    
-    padding: 0 0.4rem;
+    // padding: 0 0.4rem;
     pointer-events: none;
+    transition: 0.3s ;
   }
-  
+  .myInput:focus ~ .myLabel{
+    top:0;
+    background-color: var(--blue-300);
+  }
   .myInput{
 
     border: 2px solid var(--white);
