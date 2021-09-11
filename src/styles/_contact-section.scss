@@ -1,0 +1,17 @@
+.contact-section{
+  position: relative;
+  // height: 100%;
+  overflow: hidden;
+  .title{
+      
+      text-align: center;
+      color: var(--black-800);
+      
+    }
+  .title.-white{
+    color: var(--white);
+  }  
+  .-bgBlue{
+    background-color: var(--blue-300);
+  }
+}

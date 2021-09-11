@@ -1,0 +1,34 @@
+
+.button-main{
+
+  border: 2px solid var(--white);
+  color:var(--white);
+  border-radius: 60px;
+  font-weight: bold;
+  padding-left:2rem;
+  padding-right:2rem;
+  background-color: var(--blue-300);
+    
+}
+.button-main.-btnContrast{
+  background-color: var(--white);
+  color: var(--blue-300);
+  border: 2px solid var(--blue-300);
+  font-weight: normal;
+
+}
+//not working
+.btn.nohover:hover{
+    transform: scale(1.08);  
+}
+
+// .button-main.-btnContrast:hover {
+//     transform: scale(1.08);
+//     // border: 12px solid red;
+//     // background-color: var(--blue-300);
+
+  
+// }
+
+
+
