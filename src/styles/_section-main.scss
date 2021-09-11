@@ -1,5 +1,16 @@
 .main-section{
+  position: relative;
   height: 90vh;
+  .-arrow::before{
+    content:'';
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: var(--blue-300);
+    transform: rotate(45deg);
+    top: 10%;
+    left: 49%;
+  }
 }
 
 .main-section.-hSmall{
@@ -16,3 +27,13 @@
 .main-section.-bgBlue {
     background-color: var(--blue-300);
 }
+
+@media (max-width: 767px) { 
+
+  .main-section{
+    .-arrow::before{
+    content:'';
+    display: none;
+  }
+}
+ }
