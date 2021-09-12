@@ -14,6 +14,26 @@
   max-width: 1320px;
 }
 
+@media screen and (max-width: 1320px){
+  .container-fluid {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .navbar-nav{
+    bottom: 0;
+    left: 0;
+    padding: 2rem 1.5rem 4rem;
+  }
+}
+
+.nav-link{
+  text-align: center;
+}
+
 .navbar{
   background-color: var(--blue-300);
 }
