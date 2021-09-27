@@ -21,7 +21,10 @@
 .navbar{
   background-color: var(--blue-300);
 }
-
+.navbar.fixed-top{
+  max-width: 1320px;
+  margin: 0 auto;
+}
 
 .navbar .navbar-collapse {
   text-align: center;
