@@ -54,3 +54,9 @@
     color:var(--white);
   }
 }
+
+
+.nav-link.-bgEmphasis{
+  background-color: var(--white);
+  color: var(--blue-300) !important;
+}
