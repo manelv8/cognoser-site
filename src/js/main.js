@@ -12,9 +12,10 @@ tns({
   nav: false,
   controls: false,
   mouseDrag: true,
-  autoPlay: true,
+  autoplay: true,
   slideBy: 'page',
-  autoplayTimeout: 300,
+  autoplayTimeout: 5000,
+  autoplayButtonOutput:false,
   responsive: {
     640: {
       edgePadding: 20,
@@ -29,3 +30,5 @@ tns({
     }
   }
 });
+
+
